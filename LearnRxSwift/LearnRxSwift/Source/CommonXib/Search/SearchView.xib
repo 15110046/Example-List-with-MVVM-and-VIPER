@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchView" customModule="LearnRxSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="FUQ-I9-HKh" id="sPj-RD-MKT"/>
+                <outlet property="textFieldSearch" destination="jxZ-zK-axg" id="JSn-ZX-SJf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUQ-I9-HKh">
+                    <rect key="frame" x="0.0" y="0.0" width="338" height="30"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0up-QJ-L07">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="30"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZO-gd-xkC">
+                                    <rect key="frame" x="8" y="4" width="22" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="WZO-gd-xkC" secondAttribute="height" multiplier="1:1" id="f9c-7o-0wP"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="icons8-search-48"/>
+                                    <connections>
+                                        <action selector="clickSearch:" destination="-1" eventType="touchUpInside" id="tKK-Ps-tAr"/>
+                                    </connections>
+                                </button>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tìm kiếm..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jxZ-zK-axg">
+                                    <rect key="frame" x="30" y="0.0" width="308" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.88880565069999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="WZO-gd-xkC" firstAttribute="top" secondItem="0up-QJ-L07" secondAttribute="top" constant="4" id="Llb-Db-J6M"/>
+                                <constraint firstItem="WZO-gd-xkC" firstAttribute="leading" secondItem="0up-QJ-L07" secondAttribute="leading" constant="8" id="f1u-nx-ArH"/>
+                                <constraint firstItem="jxZ-zK-axg" firstAttribute="top" secondItem="0up-QJ-L07" secondAttribute="top" id="gNK-6w-bhh"/>
+                                <constraint firstAttribute="bottom" secondItem="jxZ-zK-axg" secondAttribute="bottom" id="ifR-Xt-FCw"/>
+                                <constraint firstAttribute="trailing" secondItem="jxZ-zK-axg" secondAttribute="trailing" id="obZ-1L-sys"/>
+                                <constraint firstAttribute="bottom" secondItem="WZO-gd-xkC" secondAttribute="bottom" constant="4" id="rk3-WM-Hwc"/>
+                                <constraint firstAttribute="height" constant="30" id="tix-5X-XLJ"/>
+                                <constraint firstItem="jxZ-zK-axg" firstAttribute="leading" secondItem="WZO-gd-xkC" secondAttribute="trailing" id="zwV-uJ-rNf"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="0up-QJ-L07" secondAttribute="bottom" id="77B-Lh-j7a"/>
+                        <constraint firstItem="0up-QJ-L07" firstAttribute="leading" secondItem="FUQ-I9-HKh" secondAttribute="leading" id="9HO-Ai-XAh"/>
+                        <constraint firstAttribute="trailing" secondItem="0up-QJ-L07" secondAttribute="trailing" id="Wbp-Ck-XBq"/>
+                        <constraint firstItem="0up-QJ-L07" firstAttribute="top" secondItem="FUQ-I9-HKh" secondAttribute="top" id="q0b-mK-aW4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FUQ-I9-HKh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Uw9-90-UhU"/>
+                <constraint firstAttribute="bottom" secondItem="FUQ-I9-HKh" secondAttribute="bottom" id="ZOp-d4-ZBa"/>
+                <constraint firstItem="FUQ-I9-HKh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="csb-6y-VVZ"/>
+                <constraint firstItem="FUQ-I9-HKh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="p1s-Br-DTM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="120.28985507246378" y="-197.54464285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-search-48" width="24" height="24"/>
+    </resources>
+</document>

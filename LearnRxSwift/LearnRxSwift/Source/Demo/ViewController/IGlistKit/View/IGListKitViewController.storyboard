@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MZd-bs-THF">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--List Kit View Controller-->
+        <scene sceneID="kDe-kO-MrA">
+            <objects>
+                <viewController storyboardIdentifier="IGListKitViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MZd-bs-THF" customClass="IGListKitViewController" customModule="LearnRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9QQ-cF-Jhl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="i8I-5J-1AG" customClass="IGListCollectionView">
+                                <rect key="frame" x="0.0" y="98" width="414" height="764"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SbL-qV-dvQ">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MZ5-Ba-ef7">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SxC-SG-bRX" customClass="SearchView" customModule="LearnRxSwift" customModuleProvider="target">
+                                <rect key="frame" x="8" y="60" width="398" height="30"/>
+                                <color key="backgroundColor" white="0.88880565068493156" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="leP-K1-TBS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SxC-SG-bRX" firstAttribute="leading" secondItem="b5X-ms-y8V" secondAttribute="leading" constant="8" id="BTd-CH-RNe"/>
+                            <constraint firstItem="i8I-5J-1AG" firstAttribute="bottom" secondItem="b5X-ms-y8V" secondAttribute="bottom" id="Jn1-lL-RPG"/>
+                            <constraint firstItem="i8I-5J-1AG" firstAttribute="leading" secondItem="b5X-ms-y8V" secondAttribute="leading" id="P7F-T9-TCk"/>
+                            <constraint firstItem="SxC-SG-bRX" firstAttribute="top" secondItem="b5X-ms-y8V" secondAttribute="top" constant="16" id="lvB-m5-pIR"/>
+                            <constraint firstItem="i8I-5J-1AG" firstAttribute="trailing" secondItem="b5X-ms-y8V" secondAttribute="trailing" id="lvk-j5-8Uf"/>
+                            <constraint firstItem="b5X-ms-y8V" firstAttribute="trailing" secondItem="SxC-SG-bRX" secondAttribute="trailing" constant="8" id="uli-z9-h3y"/>
+                            <constraint firstItem="i8I-5J-1AG" firstAttribute="top" secondItem="SxC-SG-bRX" secondAttribute="bottom" constant="8" id="xo3-iJ-EKd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b5X-ms-y8V"/>
+                    </view>
+                    <connections>
+                        <outlet property="clsView" destination="i8I-5J-1AG" id="a9r-Vf-xBF"/>
+                        <outlet property="viewSearch" destination="SxC-SG-bRX" id="iMJ-Na-fen"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dda-Zl-fsi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="32.8125"/>
+        </scene>
+    </scenes>
+</document>
