@@ -9,17 +9,7 @@
 /* Begin PBXBuildFile section */
 		24D8467CC891123E7451AB90 /* Pods_LearnRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1139A2FCC3ED4754FB2A3DDF /* Pods_LearnRxSwift.framework */; };
 		69BA803FFBAFEEE689DB96ED /* Pods_LearnRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527C5B0185CC8DE5BC2F7D53 /* Pods_LearnRxSwiftTests.framework */; };
-		CC095FE92307C60100C99C9D /* ViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC095FE82307C60100C99C9D /* ViewController2.storyboard */; };
-		CC095FEB2307C62500C99C9D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FEA2307C62500C99C9D /* ViewController2.swift */; };
 		CC095FED2307CCC700C99C9D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FEC2307CCC700C99C9D /* Observable.swift */; };
-		CC095FEF2307CF2300C99C9D /* ViewModelViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FEE2307CF2300C99C9D /* ViewModelViewController2.swift */; };
-		CC095FF12307CF3600C99C9D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FF02307CF3600C99C9D /* Model.swift */; };
-		CC095FF72307D9AB00C99C9D /* ViewController3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC095FF62307D9AB00C99C9D /* ViewController3.storyboard */; };
-		CC095FF92307D9B500C99C9D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FF82307D9B500C99C9D /* ViewController3.swift */; };
-		CC095FFD23080C7100C99C9D /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FFB23080C7100C99C9D /* ViewController4.swift */; };
-		CC095FFE23080C7100C99C9D /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC095FFC23080C7100C99C9D /* ViewController4.xib */; };
-		CC09600123080E4400C99C9D /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC095FFF23080E4400C99C9D /* ViewController5.swift */; };
-		CC09600223080E4400C99C9D /* ViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC09600023080E4400C99C9D /* ViewController5.xib */; };
 		CC09600A230850DB00C99C9D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC096008230850DB00C99C9D /* ListViewController.swift */; };
 		CC09600B230850DB00C99C9D /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC096009230850DB00C99C9D /* ListViewController.xib */; };
 		CC09600D2308517B00C99C9D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC09600C2308517B00C99C9D /* ListViewModel.swift */; };
@@ -78,17 +68,7 @@
 		527C5B0185CC8DE5BC2F7D53 /* Pods_LearnRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CD105082447C1C9E0DCAD /* Pods-LearnRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnRxSwift/Pods-LearnRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		BB383A492CA4FE1E5718999E /* Pods-LearnRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-LearnRxSwiftUITests/Pods-LearnRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CC095FE82307C60100C99C9D /* ViewController2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController2.storyboard; sourceTree = "<group>"; };
-		CC095FEA2307C62500C99C9D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		CC095FEC2307CCC700C99C9D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		CC095FEE2307CF2300C99C9D /* ViewModelViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelViewController2.swift; sourceTree = "<group>"; };
-		CC095FF02307CF3600C99C9D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		CC095FF62307D9AB00C99C9D /* ViewController3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController3.storyboard; sourceTree = "<group>"; };
-		CC095FF82307D9B500C99C9D /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		CC095FFB23080C7100C99C9D /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
-		CC095FFC23080C7100C99C9D /* ViewController4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
-		CC095FFF23080E4400C99C9D /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
-		CC09600023080E4400C99C9D /* ViewController5.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController5.xib; sourceTree = "<group>"; };
 		CC096008230850DB00C99C9D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		CC096009230850DB00C99C9D /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		CC09600C2308517B00C99C9D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
@@ -182,85 +162,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CC095FE22307C59100C99C9D /* Test2 */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FE72307C5F400C99C9D /* Model */,
-				CC095FE62307C5F000C99C9D /* ViewModel */,
-				CC095FE52307C5EC00C99C9D /* View */,
-			);
-			path = Test2;
-			sourceTree = "<group>";
-		};
-		CC095FE52307C5EC00C99C9D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FE82307C60100C99C9D /* ViewController2.storyboard */,
-				CC095FEA2307C62500C99C9D /* ViewController2.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CC095FE62307C5F000C99C9D /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FEE2307CF2300C99C9D /* ViewModelViewController2.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		CC095FE72307C5F400C99C9D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FF02307CF3600C99C9D /* Model.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CC095FF22307D98000C99C9D /* Test3 */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FF52307D99300C99C9D /* Model */,
-				CC095FF42307D98D00C99C9D /* ViewModel */,
-				CC095FF32307D98900C99C9D /* View */,
-			);
-			path = Test3;
-			sourceTree = "<group>";
-		};
-		CC095FF32307D98900C99C9D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FF62307D9AB00C99C9D /* ViewController3.storyboard */,
-				CC095FF82307D9B500C99C9D /* ViewController3.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CC095FF42307D98D00C99C9D /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		CC095FF52307D99300C99C9D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CC095FFA23080C5F00C99C9D /* TestXib */ = {
-			isa = PBXGroup;
-			children = (
-				CC095FFB23080C7100C99C9D /* ViewController4.swift */,
-				CC095FFC23080C7100C99C9D /* ViewController4.xib */,
-				CC095FFF23080E4400C99C9D /* ViewController5.swift */,
-				CC09600023080E4400C99C9D /* ViewController5.xib */,
-			);
-			path = TestXib;
-			sourceTree = "<group>";
-		};
 		CC0960032308261D00C99C9D /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,9 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				CC0960032308261D00C99C9D /* Source */,
-				CC095FFA23080C5F00C99C9D /* TestXib */,
-				CC095FF22307D98000C99C9D /* Test3 */,
-				CC095FE22307C59100C99C9D /* Test2 */,
 				CC79049923026D2800345AB3 /* AppDelegate.swift */,
 				CC7904A323026D2900345AB3 /* Assets.xcassets */,
 				CC7904A523026D2900345AB3 /* LaunchScreen.storyboard */,
@@ -376,9 +274,9 @@
 		CC799D5D230FC1BA00A11D0E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CC799D8F230FF4BF00A11D0E /* RxSwift in IGListKit */,
-				CC799D6B230FC84400A11D0E /* IGlistKit */,
-				CC799D61230FC23E00A11D0E /* RxSwift In TableView */,
+				CC799D8F230FF4BF00A11D0E /* MVVM IGListKit */,
+				CC799D6B230FC84400A11D0E /* VIPER IGListKit */,
+				CC799D61230FC23E00A11D0E /* MVVM TableView */,
 				CC799D5B230FC0CA00A11D0E /* DemoController.swift */,
 			);
 			path = ViewController;
@@ -392,14 +290,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CC799D61230FC23E00A11D0E /* RxSwift In TableView */ = {
+		CC799D61230FC23E00A11D0E /* MVVM TableView */ = {
 			isa = PBXGroup;
 			children = (
 				CC0960072308263B00C99C9D /* Model */,
 				CC0960062308263600C99C9D /* ViewModel */,
 				CC0960052308263200C99C9D /* View */,
 			);
-			path = "RxSwift In TableView";
+			path = "MVVM TableView";
 			sourceTree = "<group>";
 		};
 		CC799D64230FC3CC00A11D0E /* Cell */ = {
@@ -427,7 +325,7 @@
 			path = SectionBuilder;
 			sourceTree = "<group>";
 		};
-		CC799D6B230FC84400A11D0E /* IGlistKit */ = {
+		CC799D6B230FC84400A11D0E /* VIPER IGListKit */ = {
 			isa = PBXGroup;
 			children = (
 				CC799D72230FC8E900A11D0E /* Router */,
@@ -436,7 +334,7 @@
 				CC799D6F230FC8BF00A11D0E /* Presenter */,
 				CC799D6E230FC8B900A11D0E /* View */,
 			);
-			path = IGlistKit;
+			path = "VIPER IGListKit";
 			sourceTree = "<group>";
 		};
 		CC799D6E230FC8B900A11D0E /* View */ = {
@@ -517,13 +415,13 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		CC799D8F230FF4BF00A11D0E /* RxSwift in IGListKit */ = {
+		CC799D8F230FF4BF00A11D0E /* MVVM IGListKit */ = {
 			isa = PBXGroup;
 			children = (
 				CC799D90230FF4EA00A11D0E /* IGListKitMVVMController.storyboard */,
 				CC799D92230FF50000A11D0E /* IGListKitMVVMController.swift */,
 			);
-			path = "RxSwift in IGListKit";
+			path = "MVVM IGListKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -634,8 +532,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC09600223080E4400C99C9D /* ViewController5.xib in Resources */,
-				CC095FE92307C60100C99C9D /* ViewController2.storyboard in Resources */,
 				CC799D84230FD3B100A11D0E /* CellInfoUser.xib in Resources */,
 				CC09600B230850DB00C99C9D /* ListViewController.xib in Resources */,
 				CC7904A723026D2900345AB3 /* LaunchScreen.storyboard in Resources */,
@@ -645,8 +541,6 @@
 				CC799D89230FED4900A11D0E /* SearchView.xib in Resources */,
 				CC799D91230FF4EA00A11D0E /* IGListKitMVVMController.storyboard in Resources */,
 				CC09601523085DC800C99C9D /* TableViewCell.xib in Resources */,
-				CC095FFE23080C7100C99C9D /* ViewController4.xib in Resources */,
-				CC095FF72307D9AB00C99C9D /* ViewController3.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,22 +666,16 @@
 			files = (
 				CC799D86230FD40A00A11D0E /* CellInfoUser.swift in Sources */,
 				CC09601423085DC800C99C9D /* TableViewCell.swift in Sources */,
-				CC095FF12307CF3600C99C9D /* Model.swift in Sources */,
 				CC799D8B230FEDE900A11D0E /* BaseXib.swift in Sources */,
 				CC799D5C230FC0CA00A11D0E /* DemoController.swift in Sources */,
 				CC799D81230FD2BB00A11D0E /* IGListKitSectionViewController.swift in Sources */,
 				CC799D69230FC41600A11D0E /* CellOnlyLabel.swift in Sources */,
-				CC095FEB2307C62500C99C9D /* ViewController2.swift in Sources */,
 				CC799D8E230FEE0400A11D0E /* SearchView.swift in Sources */,
 				CC799D7A230FCD1200A11D0E /* IGListKitRouter.swift in Sources */,
-				CC095FF92307D9B500C99C9D /* ViewController3.swift in Sources */,
-				CC095FFD23080C7100C99C9D /* ViewController4.swift in Sources */,
 				CC799D78230FCCC600A11D0E /* IGListKitPresenter.swift in Sources */,
 				CC799D7C230FCD3900A11D0E /* IGListKitInteractor.swift in Sources */,
 				CC799D60230FC1DB00A11D0E /* ModelScreen.swift in Sources */,
-				CC09600123080E4400C99C9D /* ViewController5.swift in Sources */,
 				CC095FED2307CCC700C99C9D /* Observable.swift in Sources */,
-				CC095FEF2307CF2300C99C9D /* ViewModelViewController2.swift in Sources */,
 				CC7904A223026D2800345AB3 /* LearnRxSwift.xcdatamodeld in Sources */,
 				CC799D63230FC2FF00A11D0E /* SectionController.swift in Sources */,
 				CC09600A230850DB00C99C9D /* ListViewController.swift in Sources */,
